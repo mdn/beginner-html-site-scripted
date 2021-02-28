@@ -1,4 +1,8 @@
-# beginner-html-site-scripted
-A simple one page website created to help complete beginners learn HTML basics, which in this repo has also had some script added to help beginners learn JavaScript basics. The scripting is explained over the course of [https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web/JavaScript_basics](https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web/JavaScript_basics). 
+# Hello COMM4511!
 
-[Run the example live](https://mdn.github.io/beginner-html-site-scripted/).
+I forked this simple one page github repo to show you how html, css, and javascript work together to present a website.
+
+
+
+## forked from
+https://github.com/mdn/beginner-html-site-scripted
