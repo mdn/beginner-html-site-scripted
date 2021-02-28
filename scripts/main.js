@@ -1,38 +1,38 @@
 // Image switcher code
 
-let myImage = document.querySelector('img');
+let myImage = document.querySelector("img");
 
-myImage.onclick = function() {
-  let mySrc = myImage.getAttribute('src');
-  if(mySrc === 'images/firefox-icon.png') {
-    myImage.setAttribute ('src','images/firefox2.png');
+myImage.onclick = function () {
+  let mySrc = myImage.getAttribute("src");
+  if (mySrc === "images/brutus2.jpeg") {
+    myImage.setAttribute("src", "images/brutus1.jpeg");
   } else {
-    myImage.setAttribute ('src','images/firefox-icon.png');
+    myImage.setAttribute("src", "images/brutus2.jpeg");
   }
-}
+};
 
 // Personalized welcome message code
 
-let myButton = document.querySelector('button');
-let myHeading = document.querySelector('h1');
+let myButton = document.querySelector("button");
+let myHeading = document.querySelector("h1");
 
 function setUserName() {
-  let myName = prompt('Please enter your name.');
-  if(!myName) {
+  let myName = prompt("Please enter your name.");
+  if (!myName) {
     setUserName();
   } else {
-    localStorage.setItem('name', myName);
-    myHeading.innerHTML = 'Mozilla is cool, ' + myName;
+    localStorage.setItem("name", myName);
+    myHeading.innerHTML = "COMM4511 is cool, " + myName;
   }
 }
 
-if(!localStorage.getItem('name')) {
+if (!localStorage.getItem("name")) {
   setUserName();
 } else {
-  let storedName = localStorage.getItem('name');
-  myHeading.innerHTML = 'Mozilla is cool, ' + storedName;
+  let storedName = localStorage.getItem("name");
+  myHeading.innerHTML = "COMM4511 is cool, " + storedName;
 }
 
-myButton.onclick = function() {
+myButton.onclick = function () {
   setUserName();
-}
+};
