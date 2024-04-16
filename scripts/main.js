@@ -30,7 +30,7 @@ if(!localStorage.getItem('name')) {
   setUserName();
 } else {
   let storedName = localStorage.getItem('name');
-  myHeading.innerHTML = 'Mozilla is cool, ' + storedName;
+  myHeading.innerText = 'Mozilla is cool, ' + storedName; // you can use also innerHTML(unsafe compared to innerText and textContent) and textContent
 }
 
 myButton.onclick = function() {
