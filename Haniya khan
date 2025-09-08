@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haniya Khan - Writer & Translator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #6a0dad;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        section {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        .about, .contact {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: #6a0dad;
+        }
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        form button {
+            background-color: #6a0dad;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        form button:hover {
+            background-color: #520d87;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #eee;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Haniya Khan</h1>
+    <p>Writer & Translator (English, Urdu, Arabic, French, Spanish)</p>
+</header>
+
+<section class="about">
+    <h2>About Me</h2>
+    <p>Hello! I’m Haniya Khan, a passionate writer and translator. I specialize in creating high-quality content in English, Urdu, Arabic, French, and Spanish, including articles, blogs, and translations. My goal is to help individuals and businesses express their ideas clearly and professionally. Let’s work together and bring your ideas to life!</p>
+</section>
+
+<section class="contact">
+    <h2>Contact Me</h2>
+    <form action="#" method="post">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Write your message or request here..." rows="6" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2025 Haniya Khan. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
