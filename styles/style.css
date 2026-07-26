@@ -1,6 +1,7 @@
 html {
   font-size: 10px;
   font-family: 'Open Sans', sans-serif;
+  background-color: #00539F;
 }
 
 
@@ -13,11 +14,6 @@ p, li {
   font-size: 16px;
   line-height: 2;
   letter-spacing: 1px;
-}
-
-
-html {
-  background-color: #00539F;
 }
 
 body {
@@ -38,4 +34,18 @@ h1 {
 img {
   display: block;
   margin: 0 auto;
+}
+
+.btn-change-user {
+	padding: 10px;
+	background-color: #00539F;
+	color: #FF9500;
+	border: 1px solid black;
+	border-radius: 6px;
+	cursor: pointer;
+}
+
+.btn-change-user:hover {
+	background-color: gold;
+	color: black;
 }
