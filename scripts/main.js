@@ -18,7 +18,7 @@ let myButton = document.querySelector('button');
 let myHeading = document.querySelector('h1');
 
 function setUserName() {
-  let myName = prompt('Please enter your name.');
+  let myName = prompt('Please enter your name, max 16 lenght.');
   if(!myName) {
     setUserName();
   } else {

@@ -1,28 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My test page</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
-    <link href="styles/style.css" rel="stylesheet" type="text/css">
-  </head>
-  <body>
-    <h1>Mozilla is cool</h1>
-    <img src="images/firefox-icon.png" alt="The Firefox logo: a flaming fox surrounding the Earth.">
 
-    <p>At Mozilla, we’re a global community of</p>
+<head>
 
-    <ul> <!-- changed to list in the tutorial -->
-      <li>technologists</li>
-      <li>thinkers</li>
-      <li>builders</li>
-    </ul>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My test page</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+  <link href="styles/style.css" rel="stylesheet" type="text/css">
+  <link rel="shortcut icon" href="images/firefox-icon.png" type="image/x-icon">
 
-    <p>working together to keep the Internet alive and accessible, so people worldwide can be informed contributors and creators of the Web. We believe this act of human collaboration across an open platform is essential to individual growth and our collective future.</p>
+</head>
 
-    <p>Read the <a href="https://www.mozilla.org/en-US/about/manifesto/">Mozilla Manifesto</a> to learn even more about the values and principles that guide the pursuit of our mission.</p>
-  <button>Change user</button>
+<body>
+
+  <main class="main">
+
+    <section class="mozilla_message">
+
+      <h1>Mozilla is cool</h1>
+
+      <img src="images/firefox-icon.png" alt="The Firefox logo: a flaming fox surrounding the Earth.">
+
+    </section>
+
+    <section>
+
+      <section class="list">
+
+        <p>At Mozilla, we’re a global community of</p>
+
+
+        <ul>
+
+          <li>Technologists</li>
+          <li>Thinkers</li>
+          <li>Builders</li>
+
+        </ul>
+
+      </section>
+
+      <section class="texts">
+
+        <p>working together to keep the Internet alive and accessible, so people worldwide can be informed contributors
+          and creators of the Web. We believe this act of human collaboration across an open platform is essential to
+          individual growth and our collective future.</p>
+
+        <p>Read the <a href="https://www.mozilla.org/en-US/about/manifesto/" title="Mozilla Manifesto">Mozilla Manifesto</a>
+          to learn even more
+          about the values and principles that guide the pursuit of our mission.</p>
+
+      </section>
+
+      <section class="sec_button">
+
+        <button class="button">
+          Change user
+          <svg xmlns="http://www.w3.org/2000/svg" height="10px" viewBox="0 -960 960 960" width="15px" fill="#FFFFFF">
+            <path
+              d="M331.07-126.22q-70.22-30.22-122.65-82.5Q156-261 126-331.18q-30-70.19-30-149.5 0-79.32 30.22-148.85 30.21-69.52 82.49-121.79 52.28-52.26 122.3-82.47Q401.04-864 479.69-864 496-864 506-854t10 25.51q0 15.51-10 26T480-792q-129.67 0-220.84 90.5Q168-611 168-480.5T259.16-259q91.17 91 220.84 91 131 0 221.5-91.16Q792-350.33 792-480q0-16 10.49-26t26-10Q844-516 854-506q10 10 10 26.31 0 78.65-30.21 148.68-30.21 70.02-82.47 122.3-52.27 52.28-121.79 82.49Q560-96 480.64-96q-79.35 0-149.57-30.22Z" />
+          </svg>
+        </button>
+
+      </section>
+
+    </section>
+
+  </main>
+
   <script src="scripts/main.js"></script>
-  </body>
+
+</body>
+
 </html>
